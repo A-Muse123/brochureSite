@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;800;900&display=swap');
+
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+
+}
+
+.wrapper{
+	width: 100%;
+	height: 100vh;
+	background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../images/background.png);
+	background-size: cover;
+	background-position: center;
+	padding-right: 8%;
+	padding-left: 8%;
+	
+}
+.logo{ 
+	width: 50px;
+	cursor:pointer;
+ }
+
+
+.navbar{ 
+	display: flex;
+	align-items: center;
+	height: 12%;
+ }
+
+.menu-icon{
+	width: 30px;
+	margin-left: 30px;
+	cursor: pointer;
+}
+
+nav{
+	text-align: right;
+	flex: 1;
+}
+nav li{
+	list-style-type: none;
+	margin-left: 3%;
+	display: inline-block;
+}
+
+nav a{
+	text-decoration: none;
+	font-size: 14px;
+	color: #fff;
+}
+
+.row{
+	display: flex;
+	align-items: center;
+	height: 88%;
+}
+
+.col{
+	flex-basis: 50%;
+}
+h1{
+	font-size: 100px;
+	color: #fff;
+}
+p{
+	line-height: 15px;
+	font-size: 11px;
+	color: #fff;
+}
+
+button{
+	width: 180px;
+	border-radius: 20px;
+	border: 0;
+	outline: none;
+	color: #fff;
+	font-size: 14px;
+	padding: 12px 0;
+	background: rgba(12, 151, 28,0.7);
+	margin-top: 4%;
+}
+button:hover{
+	background: #0275d8;
+}
+
+.card{
+	width: 200px;
+	height: 230px;
+	display: inline-block;
+	border-radius: 10px;
+	padding: 15px 25px;
+	margin: 10px 15px;
+	background-image: url(../images/pic-1.png);
+	background-position: center;
+	background-size: cover;
+	cursor:pointer;
+	transition: transform 0.5s;
+}
+
+.card h5{
+	color: #fff;
+	text-shadow: 0 0 5px #999;
+}
+
+.card p {
+		text-shadow: 0 0 15px #999;
+		font-size: 9px;
+}
+
+.card:hover{
+	transform: translateY(-10px);
+
+}
+
+.card1{
+	background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../images/pic-1.png);
+
+
+}
+.card2{
+	background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../images/pic-2.png);
+}
+.card3{
+	background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),  url(../images/pic-3.png);
+}
+.card4{
+	background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),  url(../images/pic-4.png);
+}
